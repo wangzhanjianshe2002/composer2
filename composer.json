@@ -1,0 +1,19 @@
+{
+    "name": "wangzhanjianshe2002/composer2",
+    "description": "test project",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Wangzhanjianshe2002\\Composer2\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "XiangShanLaoWang",
+            "email": "68278866@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
