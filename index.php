@@ -1,2 +1,3 @@
 <?php
-    phpinfo();
+include "vendor/autoload.php";
+\core\Bootstrap::run();

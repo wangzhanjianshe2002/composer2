@@ -4,8 +4,13 @@
     "type": "project",
     "license": "MIT",
     "autoload": {
+        "files": [
+            "core/functions.php"
+        ],
         "psr-4": {
-            "Wangzhanjianshe2002\\Composer2\\": "src/"
+            "Wangzhanjianshe2002\\Composer2\\": "src/",
+            "core\\": "core",
+            "web\\": "web"
         }
     },
     "authors": [
@@ -15,5 +20,7 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {}
+    "require": {
+        "gregwar/captcha": "dev-master"
+    }
 }
